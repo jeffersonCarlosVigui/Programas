@@ -1,0 +1,65 @@
+Create Database bd_tarefa_teste
+
+
+CREATE TABLE TD_Cli_Cliente(
+    Id int Auto_Increment primary key,
+    IdPontoAtendimento int,
+    NomeRazao  nvarchar(255),
+    CpfCnpj    nvarchar(20)    
+)
+
+CREATE TABLE Td_Uni_PontoAtendimento(
+    Id int Auto_Increment primary key,
+    Descricao nvarchar(155),
+    Gerente   nvarchar(255)
+)
+
+CREATE TABLE Td_Cre_ContratoCredito(
+    Id int Auto_Increment primary key,
+    IdCliente       int,
+    NumContrato     varchar(50),
+    ValorContrato   decimal(18.2),
+    Taxa            decimal(18.2),
+    PeriocidadeTaxa nvarchar(4),
+    DataContratato  datetime,
+    Vencimento      datetime
+)
+
+Create Table Td_Cre_ParcelaContrato(
+    Id int Auto_Increment primary key,
+    IdContrato int,
+    NumParcela int,
+    Valorparcela  decimal(18.2),
+    Vencimento   datetime
+)
+
+Create Table Td_Cre_Amortizacao(
+    Id int Auto_Increment primary key,
+    IdParcela int,
+    ValorAmortizacao decimal(18.2),
+    Data datetime
+)
+
+Create Table Usuario (
+    Login varchar(10),
+    Senha varchar(10)
+)
+
+ALTER TABLE td_cli_cliente ADD CONSTRAINT num1
+      FOREIGN KEY(idPontoAtendimento) REFERENCES td_Uni_PontoAtendimento(Id); 
+
+ALTER TABLE td_cre_contratocredito ADD CONSTRAINT num2
+      FOREIGN KEY(idcliente) REFERENCES td_cli_cliente(Id); 
+
+ALTER TABLE td_cre_parcelacontrato ADD CONSTRAINT num3
+      FOREIGN KEY(idcontrato) REFERENCES td_cre_contratocredito(Id); 
+
+ALTER TABLE td_cre_amortizacao ADD CONSTRAINT num4
+      FOREIGN KEY(idparcela) REFERENCES td_cre_parcelacontrato(Id); 
+
+
+INSERT INTO td_cre_parcelacontrato(Id, IdContrato, NumParcela, Valorparcela, Vencimento) VALUES 
+        (1,1,3,100,'2020-12-10')
+
+
+

@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.Properties.Resources.resources
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.Form1.resources
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.View.frmAmortizacao.resources
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.View.frmCadContrato.resources
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.View.frmMenu.resources
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.View.frmUsuario.resources
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.AssemblyInfo.cs
+C:\Users\Dell\Desktop\Programas\Tarefa_Teste\obj\Debug\netcoreapp3.1\Tarefa_Teste.csproj.CoreCompileInputs.cache
